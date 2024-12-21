@@ -1,0 +1,111 @@
+[
+  {
+    "ContainingType": "studentwebAPI.Controllers.TblstudentInfoesController",
+    "Method": "GetTblstudentInfos",
+    "RelativePath": "api/TblstudentInfoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[studentwebAPI.DataDB.TblstudentInfo, studentwebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "studentwebAPI.Controllers.TblstudentInfoesController",
+    "Method": "PostTblstudentInfo",
+    "RelativePath": "api/TblstudentInfoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tblstudentInfo",
+        "Type": "studentwebAPI.DataDB.TblstudentInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "studentwebAPI.DataDB.TblstudentInfo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "studentwebAPI.Controllers.TblstudentInfoesController",
+    "Method": "GetTblstudentInfo",
+    "RelativePath": "api/TblstudentInfoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "studentwebAPI.DataDB.TblstudentInfo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "studentwebAPI.Controllers.TblstudentInfoesController",
+    "Method": "PutTblstudentInfo",
+    "RelativePath": "api/TblstudentInfoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tblstudentInfo",
+        "Type": "studentwebAPI.DataDB.TblstudentInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "studentwebAPI.Controllers.TblstudentInfoesController",
+    "Method": "DeleteTblstudentInfo",
+    "RelativePath": "api/TblstudentInfoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
